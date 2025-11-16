@@ -1,16 +1,21 @@
-﻿Flask==2.3.3
+Flask==2.3.3
 flask-cors==4.0.1
 pymongo==4.6.3
+
 langchain==0.2.16
 langchain-core==0.2.38
 langchain-groq==0.1.9
 langchain-community==0.2.16
 langsmith==0.1.75
 langgraph==0.2.5
+
 transformers==4.44.2
+tokenizers==0.19.1 --only-binary=:all:
+
 sentence-transformers==2.7.0
-torch==2.9.1
-faiss-cpu
+torch==2.2.2
+faiss-cpu==1.8.0
+
 python-docx==1.1.2
 google-auth==2.29.0
 google-api-python-client==2.126.0
